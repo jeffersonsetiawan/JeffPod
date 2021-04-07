@@ -6,12 +6,14 @@
 //  Copyright (c) 2021 Jefferson Setiawan. All rights reserved.
 //
 
+import JeffPod
 import UIKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        JeffObject(id: 1, name: "jeff")
         // Do any additional setup after loading the view, typically from a nib.
     }
 
